@@ -2,7 +2,8 @@
 
 Simulate tram trips, compute auxiliary energy for **fixed** vs **sensor-based** controls (lighting, ventilation, HVAC), and
 train a small ML model to **predict % savings** from trip conditions.
-
+## Report
+**Project report (PDF):** [tram-energy-report.pdf](docs/tram-energy-report.pdf)
 ## Repo layout
 - `generate_dataset.py` — makes `synthetic_trips.csv` with per-trip energy + `% savings`
 - `train_model.py` — trains a Random Forest → saves to `models/savings_model.joblib`
